@@ -19,7 +19,7 @@
 }
 .logo{
     background-size: cover;
-    background-image: url("/Metarials/amazon-logo.png");
+    background-image: url(/Logo/amazon-logo.png);
     height: 80px;
 }
 .border{
