@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     font-family: Arial;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 .navbar{
@@ -49,6 +49,7 @@
     justify-content: space-evenly;
     background-color: orange;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 .search-input{
     width: 500px;
@@ -94,6 +95,9 @@
     background-color: #0f1111;
     color: #f3f3f3;
 }
+.nav-search:hover{
+    border:2px solid orange;
+}
 
 /* box 4 */
 span{
@@ -102,4 +106,12 @@ span{
 .nav-second{
     font-size: 0.7;
     font-weight: 700;
+}
+
+/* Box6 */
+.nav_cart i{
+    font-size: 30px;
+}
+.nav_cart p{
+    /* font-weight: ; */
 }
